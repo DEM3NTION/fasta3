@@ -1,0 +1,32 @@
+<ddl>
+	<device>
+		<name>dev1</name>
+		<pin>
+			<id>gnd_r</id>
+			<index>0</index>
+			<mode>out</mode>
+			<level>high</level>
+		</pin>
+		<pin>
+			<id>gnd_g</id>
+			<index>1</index>
+			<mode>out</mode>
+			<level>high</level>
+		</pin>
+		<pin>
+			<id>gnd_b</id>
+			<index>3</index>
+			<mode>out</mode>
+			<level>high</level>
+		</pin>
+	</device>
+	<device>
+		<name>dev2</name>
+		<pin>
+			<id>sense</id>
+			<index>7</index>
+			<mode>in</mode>
+			<level>low</level>
+		</pin>
+	</device>
+</ddl>
